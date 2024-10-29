@@ -69,7 +69,7 @@ public class Library extends Building {
    */
 
   public boolean containsTitle(String title){
-    if (collection.contains(title)){
+    if (collection.containsKey(title)){
       System.out.println("It is there");
       return true;
     }
